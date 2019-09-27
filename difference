@@ -1,0 +1,94 @@
+Common subdirectories: linux-3.16.2/arch and linux-3.16.2_backup/arch
+Common subdirectories: linux-3.16.2/block and linux-3.16.2_backup/block
+Only in linux-3.16.2: .config
+Only in linux-3.16.2: .config.old
+Common subdirectories: linux-3.16.2/crypto and linux-3.16.2_backup/crypto
+Common subdirectories: linux-3.16.2/Documentation and linux-3.16.2_backup/Documentation
+Common subdirectories: linux-3.16.2/drivers and linux-3.16.2_backup/drivers
+Common subdirectories: linux-3.16.2/firmware and linux-3.16.2_backup/firmware
+Common subdirectories: linux-3.16.2/fs and linux-3.16.2_backup/fs
+Common subdirectories: linux-3.16.2/include and linux-3.16.2_backup/include
+Common subdirectories: linux-3.16.2/init and linux-3.16.2_backup/init
+Common subdirectories: linux-3.16.2/ipc and linux-3.16.2_backup/ipc
+Common subdirectories: linux-3.16.2/kernel and linux-3.16.2_backup/kernel
+Common subdirectories: linux-3.16.2/lib and linux-3.16.2_backup/lib
+diff linux-3.16.2/Makefile linux-3.16.2_backup/Makefile
+842c842
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ sh_task_info/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+Only in linux-3.16.2: .missing-syscalls.d
+Common subdirectories: linux-3.16.2/mm and linux-3.16.2_backup/mm
+Only in linux-3.16.2: modules.builtin
+Only in linux-3.16.2: modules.order
+Only in linux-3.16.2: Module.symvers
+Common subdirectories: linux-3.16.2/net and linux-3.16.2_backup/net
+Common subdirectories: linux-3.16.2/samples and linux-3.16.2_backup/samples
+Common subdirectories: linux-3.16.2/scripts and linux-3.16.2_backup/scripts
+Common subdirectories: linux-3.16.2/security and linux-3.16.2_backup/security
+Only in linux-3.16.2: sh_task_info
+Only in linux-3.16.2: signing_key.priv
+Only in linux-3.16.2: signing_key.x509
+Common subdirectories: linux-3.16.2/sound and linux-3.16.2_backup/sound
+Only in linux-3.16.2: System.map
+Only in linux-3.16.2: .tmp_kallsyms1.o
+Only in linux-3.16.2: .tmp_kallsyms2.o
+Only in linux-3.16.2: .tmp_System.map
+Only in linux-3.16.2: .tmp_versions
+Only in linux-3.16.2: .tmp_vmlinux1
+Only in linux-3.16.2: .tmp_vmlinux2
+Common subdirectories: linux-3.16.2/tools and linux-3.16.2_backup/tools
+Common subdirectories: linux-3.16.2/usr and linux-3.16.2_backup/usr
+Only in linux-3.16.2: .version
+Common subdirectories: linux-3.16.2/virt and linux-3.16.2_backup/virt
+Only in linux-3.16.2: vmlinux
+Only in linux-3.16.2: .vmlinux.cmd
+Only in linux-3.16.2: vmlinux.o
+Only in linux-3.16.2: x509.genkey
+Common subdirectories: linux-3.16.2/arch and linux-3.16.2_backup/arch
+Common subdirectories: linux-3.16.2/block and linux-3.16.2_backup/block
+Only in linux-3.16.2: .config
+Only in linux-3.16.2: .config.old
+Common subdirectories: linux-3.16.2/crypto and linux-3.16.2_backup/crypto
+Common subdirectories: linux-3.16.2/Documentation and linux-3.16.2_backup/Documentation
+Common subdirectories: linux-3.16.2/drivers and linux-3.16.2_backup/drivers
+Common subdirectories: linux-3.16.2/firmware and linux-3.16.2_backup/firmware
+Common subdirectories: linux-3.16.2/fs and linux-3.16.2_backup/fs
+Common subdirectories: linux-3.16.2/include and linux-3.16.2_backup/include
+Common subdirectories: linux-3.16.2/init and linux-3.16.2_backup/init
+Common subdirectories: linux-3.16.2/ipc and linux-3.16.2_backup/ipc
+Common subdirectories: linux-3.16.2/kernel and linux-3.16.2_backup/kernel
+Common subdirectories: linux-3.16.2/lib and linux-3.16.2_backup/lib
+diff linux-3.16.2/Makefile linux-3.16.2_backup/Makefile
+842c842
+< core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/ sh_task_info/
+---
+> core-y		+= kernel/ mm/ fs/ ipc/ security/ crypto/ block/
+Only in linux-3.16.2: .missing-syscalls.d
+Common subdirectories: linux-3.16.2/mm and linux-3.16.2_backup/mm
+Only in linux-3.16.2: modules.builtin
+Only in linux-3.16.2: modules.order
+Only in linux-3.16.2: Module.symvers
+Common subdirectories: linux-3.16.2/net and linux-3.16.2_backup/net
+Common subdirectories: linux-3.16.2/samples and linux-3.16.2_backup/samples
+Common subdirectories: linux-3.16.2/scripts and linux-3.16.2_backup/scripts
+Common subdirectories: linux-3.16.2/security and linux-3.16.2_backup/security
+Only in linux-3.16.2: sh_task_info
+Only in linux-3.16.2: signing_key.priv
+Only in linux-3.16.2: signing_key.x509
+Common subdirectories: linux-3.16.2/sound and linux-3.16.2_backup/sound
+Only in linux-3.16.2: System.map
+Only in linux-3.16.2: .tmp_kallsyms1.o
+Only in linux-3.16.2: .tmp_kallsyms2.o
+Only in linux-3.16.2: .tmp_System.map
+Only in linux-3.16.2: .tmp_versions
+Only in linux-3.16.2: .tmp_vmlinux1
+Only in linux-3.16.2: .tmp_vmlinux2
+Common subdirectories: linux-3.16.2/tools and linux-3.16.2_backup/tools
+Common subdirectories: linux-3.16.2/usr and linux-3.16.2_backup/usr
+Only in linux-3.16.2: .version
+Common subdirectories: linux-3.16.2/virt and linux-3.16.2_backup/virt
+Only in linux-3.16.2: vmlinux
+Only in linux-3.16.2: .vmlinux.cmd
+Only in linux-3.16.2: vmlinux.o
+Only in linux-3.16.2: x509.genkey
